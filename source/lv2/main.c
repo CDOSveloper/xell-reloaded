@@ -223,7 +223,8 @@ int main(){
     } else if (xenon_get_console_type() == 1) {
 	    printf(" * Console: Xenon/Zephyr\n");
     } else if (xenon_get_console_type() == 2) {
-	    printf(" * Console: Falcon\n");
+	    printf(" * Console: Opus\n");
+	    printf(" * Motherboard: Falcon\n");
     } else if (xenon_get_console_type() == 3) {
 	    printf(" * Console: Jasper\n");
     } else if (xenon_get_console_type() == 4) {
